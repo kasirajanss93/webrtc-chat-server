@@ -99,6 +99,7 @@ wss.on("connection", (ws) => {
             message: `User ${name} does not exist!`,
           });
         }
+
         break;
       case "candidate":
         const candidateRecipient = users[name];
